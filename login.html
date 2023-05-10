@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login/sign up</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/login.css" />
+  <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+  <body>
+    <div class="container">
+      <section id="formHolder">
+        <div class="row">
+          <!-- Brand Box -->
+          <div class="col-md-6 brand">
+            <a href="#" class="loginLogo"><img src="./images/logo/png/footer-logo2.png" alt="logo" /></a>
+            <a href="index.html" class="homebutton">Go back to Home</a>
+            <div class="heading">
+              <h2>weather<span>4</span>u</h2>
+              <p>
+                Matches the best weather <br />
+                for you.
+              </p>
+            </div>
+
+            <div class="success-msg">
+              <p>Great! You are one of our members now</p>
+              <a href="./index.html" class="profile">Go Home!</a>
+            </div>
+          </div>
+          <aside class="sidebar"></aside>
+          <!-- Form Box -->
+          <div class="col-md-6 form">
+            <!-- Login Form -->
+            <div class="login form-piece switched">
+              <form class="login-form" action="#" method="post">
+                <div class="form-group">
+                  <label for="loginemail">Email Address</label>
+                  <input type="email" name="loginemail" id="loginemail" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="loginPassword">Password</label>
+                  <input type="password" name="loginPassword" id="loginPassword" required />
+                </div>
+
+                <div class="CTA">
+                  <input type="submit" value="Login" />
+                  <a href="#" class="switch">I'm New</a>
+                </div>
+                <div class="kakao"><button>with Kakao</button></div>
+                <div class="naver"><button>with Naver</button></div>
+              </form>
+            </div>
+            <!-- End Login Form -->
+
+            <!-- Signup Form -->
+            <div class="signup form-piece">
+              <form class="signup-form" action="#" method="post">
+                <div class="form-group">
+                  <label for="name">Nick Name(only Eng)</label>
+                  <input type="text" name="username" id="name" class="name" />
+                  <span class="error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" name="emailAddress" id="email" class="email" />
+                  <span class="error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number - <small>Optional</small></label>
+                  <input type="text" name="phone" id="phone" />
+                </div>
+
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" class="pass" />
+                  <span class="error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="passwordCon">Confirm Password</label>
+                  <input type="password" name="passwordCon" id="passwordCon" class="passConfirm" />
+                  <span class="error"></span>
+                </div>
+
+                <div class="CTA">
+                  <input type="submit" value="Signup Now" id="submit" />
+                  <a href="#" class="switch">I have an account</a>
+                </div>
+              </form>
+            </div>
+            <!-- End Signup Form -->
+          </div>
+        </div>
+      </section>
+      <script src="./js/login.js"></script>
+    </div>
+  </body>
+</html>
