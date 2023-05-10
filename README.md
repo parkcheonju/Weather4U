@@ -12,6 +12,9 @@
 
 
 ```
+## git deploy 페이지입니다. 클릭하시면 바로 보실 수 있습니다. 
+
+### https://parkcheonju.github.io/fail_team-project/
 
 ## 아래 사이트에서 팀 전체 commit 내역을 확인 하실 수 있습니다 
 
